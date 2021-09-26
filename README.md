@@ -1,5 +1,5 @@
 # Rasa Deployment
-Deploying Rasa Open Source Bot over Cloud using Docker.
+Deploying Rasa Open Source Bot over Cloud using Docker with API enabled and using suth token for verification.
 
 ## Prerequisites:
 - Docker
