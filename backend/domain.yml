@@ -16,7 +16,7 @@ responses:
       end_of_conversation: true
 
   utter_gimik:
-  - text: "THANK YOU FOR YOUR ORDER . YOUR PIZZA {WHAT_PIZZA_WOULD_YOU_LIKE_TO_ORDER} for {WHAT_IS_YOUR_NAME} to {WHAT_IS_YOUR_ADDRESS} will be delivered in 30 min"
+  - text: "THANK YOU FOR YOUR ORDER . YOUR order for {WHAT_PIZZA_WOULD_YOU_LIKE_TO_ORDER} in name of {WHAT_IS_YOUR_NAME} to {WHAT_IS_YOUR_ADDRESS} will be delivered in 30 min"
 
   utter_ask_WHAT_PIZZA_WOULD_YOU_LIKE_TO_ORDER:
   - text: what would you like to order?
