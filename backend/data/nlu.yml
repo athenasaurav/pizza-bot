@@ -35,3 +35,10 @@ nlu:
     - see you around
     - bye bye
     - see you later
+
+- intent: tenios_start
+  examples: |
+    - tenios_start
+    - tenios start
+    - starting tenios
+    - tenios started
