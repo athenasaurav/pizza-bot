@@ -31,6 +31,8 @@ rules:
   - action: utter_gimik
 
 - rule: Tenios start rule
+  # This rule only applies to the start of a session.
+  conversation_start: True
   steps:
   - intent: tenios_start
   - action: utter_start
