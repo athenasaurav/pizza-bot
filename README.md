@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=fmh94mNQHQc
 - Once you are connected to the instance, Follow the process as shown below to create the bot
 
 # Rasa Deployment
-Deploying Rasa Open Source Bot over Cloud using Docker with API enabled and using suth token for verification.
+Deploying Rasa Open Source Bot over Cloud using Docker with API enabled and using auth token for verification.
 
 ## Prerequisites:
 - Docker
