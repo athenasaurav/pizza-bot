@@ -132,7 +132,7 @@ Body
 ```
 
 Here is a screenshot showing the request
-![POSTMAN](https://user-images.githubusercontent.com/530190/135397365-7edd4fbe-728c-40a3-9ea2-069e44d5e60d.png)
+[POSTMAN](https://user-images.githubusercontent.com/530190/135397365-7edd4fbe-728c-40a3-9ea2-069e44d5e60d.png)
 
 The Curl Request will be like this :
 ```
