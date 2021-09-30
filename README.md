@@ -112,3 +112,35 @@ Re build the docker image with
 then just do 
 
 - >docker-compose restart
+
+
+## Instructions: To connect to BOT over POSTMAN
+
+To connect using POSTMAN we will use Rest Channel and Do POST request 
+
+url :
+```
+https://rasapizzabot.tenios.com/webhooks/rest/webhook
+```
+header : NONE
+
+Body 
+```
+{
+    "message":"yourmessage to bot"
+}
+```
+
+Here is a screenshot showing the request
+![POSTMAN](https://user-images.githubusercontent.com/530190/135397365-7edd4fbe-728c-40a3-9ea2-069e44d5e60d.png)
+
+The Curl Request will be like this :
+```
+curl --location --request POST 'https://rasapizzabot.tenios.com/webhooks/rest/webhook' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "message":"your message to bot"
+}'
+
+```
+
