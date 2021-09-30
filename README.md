@@ -2,6 +2,7 @@
 To connect to GCP VM instance we need following two software installed in ou PC. 
 
 To download PUTTY [click here](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
+
 To download PUTTYGEN [click here](https://www.puttygen.com/)
 
 ## Prerequisites:
