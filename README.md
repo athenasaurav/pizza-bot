@@ -1,10 +1,29 @@
+# Connect to VM instance using Putty and PUTTYGEN
+To connect to GCP VM instance we need following two software installed in ou PC. 
+
+To download PUTTY [click here](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
+To download PUTTYGEN [click here](https://www.puttygen.com/)
+
+## Prerequisites:
+- PUTTY
+- PUTTYGEN
+
+## Instructions:
+
+### For Connecting to VM Server:
+- Create the VM instance of Ubuntu over Compute Engine
+- once the instance is created follow the steps shown in th youtube video til Timestamp 4.30
+
+https://www.youtube.com/watch?v=fmh94mNQHQc
+
+- Once you are connected to the instance, Follow the process as shown below to create the bot
+
 # Rasa Deployment
 Deploying Rasa Open Source Bot over Cloud using Docker with API enabled and using suth token for verification.
 
 ## Prerequisites:
 - Docker
 - Docker Compose
-
 
 ## Instructions:
 
@@ -29,8 +48,8 @@ Deploying Rasa Open Source Bot over Cloud using Docker with API enabled and usin
 
 #### 3) Clone the Docker App
 
-- > git clone https://github.com/athenasaurav/moodbot25.git
-- > cd moodbot25
+- > git clone https://github.com/athenasaurav/pizza-bot.git
+- > cd pizza-bot
 
 #### 4) Installing NGINX
 
