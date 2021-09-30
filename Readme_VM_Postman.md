@@ -2,18 +2,20 @@
 To connect to GCP VM instance we need following two software installed in ou PC. 
 
 To download PUTTY [click here](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
+To download PUTTYGEN [click here](https://www.puttygen.com/)
 
 ## Prerequisites:
-- Docker
-- Docker Compose
-
+- PUTTY
+- PUTTYGEN
 
 ## Instructions:
 
-### For deploying over Server:
+### For Connecting to VM Server:
 - Create the VM instance of Ubuntu over Compute Engine
-- once the instance is created login to the VM using SSH
-- Run the below commands and clone our Docker app:
+- once the instance is created follow the steps shown in th youtube video til Timestamp 4.30
+
+https://www.youtube.com/watch?v=fmh94mNQHQc
+
 
  - > sudo apt-get update
  
