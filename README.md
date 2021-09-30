@@ -127,20 +127,21 @@ header : NONE
 Body 
 ```
 {
-    "message":"yourmessage to bot"
+    "message":"tenios_start",
+    "sender" : "username"
 }
 ```
 
-Here is a screenshot showing the request
-[POSTMAN](https://user-images.githubusercontent.com/530190/135397365-7edd4fbe-728c-40a3-9ea2-069e44d5e60d.png)
+Here is a screenshot showing the request [POSTMAN](https://user-images.githubusercontent.com/530190/135397800-26c3b3a9-62fe-4b70-ac26-eb22b68b7a3e.png)
+
 
 The Curl Request will be like this :
 ```
 curl --location --request POST 'https://rasapizzabot.tenios.com/webhooks/rest/webhook' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "message":"your message to bot"
+    "message":"tenios_start",
+    "sender" : "username"
 }'
-
 ```
 
