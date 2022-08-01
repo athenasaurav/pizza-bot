@@ -121,7 +121,7 @@ To connect using POSTMAN we will use Rest Channel and Do POST request
 
 url :
 ```
-https://rasapizzabot.tenios.com/webhooks/rest/webhook
+https://yourwebsite.com/webhooks/rest/webhook
 ```
 header : NONE
 
@@ -138,7 +138,7 @@ Here is a screenshot showing the request [POSTMAN](https://user-images.githubuse
 
 The Curl Request will be like this :
 ```
-curl --location --request POST 'https://rasapizzabot.tenios.com/webhooks/rest/webhook' \
+curl --location --request POST 'https://yourwebsite.com/webhooks/rest/webhook' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "message":"tenios_start",
