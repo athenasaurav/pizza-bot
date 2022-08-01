@@ -5,7 +5,7 @@ services:
       image: nginx
       volumes:
         - ./nginx:/etc/nginx/conf.d
-        - ./certs:/etc/letsencrypt/live/techprescient.in
+        - ./certs:/etc/letsencrypt/live/yourwebsite.com
       ports:
         - 80:80
         - 443:443
